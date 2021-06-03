@@ -1,0 +1,78 @@
+/*商品*/
+.select-list {overflow: hidden;border-bottom: 1px solid #e1dfdf;margin:25px 0;padding-bottom:20px}
+	.select-list a{display:block;float:left;width:90px;height:35px;text-align:center;line-height:35px;color:#089AEA;font-size:14px;border: 1px solid #E2E1E1;margin-right:15px;font-weight:bold;cursor:pointer}
+		.select-list a:hover{border:1px solid #089AEA}
+	.select-list select{float:left;margin:0 15px;width:145px;height:35px;line-height:35px;font-size:14px;padding:0 5px;cursor:pointer}
+		.select-list select option{width:100%;height:30px;line-height:30px;}
+#shop{width:1200px;margin:40px auto;overflow:hidden;}
+	#shop .shopclass{border:1px solid #eaeaea;overflow:hidden;min-height:60px}
+		#shop .shopclass h2{float:left;width:80px;font-size:14px;font-weight:bold;line-height:60px;padding-left:10px;}
+			#shop .shopclass ul{float:left;width:1100px;font-size:13px;}
+				#shop .shopclass li{float:left;margin:0 15px;}
+					#shop .shopclass li a{color:#333;line-height:60px;}
+	.product-wrap {overflow:hidden;}
+		.product-wrap li{ width:275px;height:367px;float:left;margin:10px 10px;border:1px solid #eaeaea;background:#fafafa;padding-bottom:10px}
+			.product-wrap li:hover h2{color:#0099FF}
+			.product-wrap ul img{width:100%;height:237px;}
+			.product-wrap ul h2{font-size:14px;color:#666;overflow:hidden;text-align:center;padding:10px 10px 0;height:40px}
+			.product-wrap ul p{margin:10px 7px;overflow:hidden;width:254px;padding:5px 10px 0}
+				.product-wrap ul p em{font-size:16px;font-weight:bold;color:#E51D0C}
+				.product-wrap ul p del{color:#666;padding-left:10px;font-size:13px;}
+			.product-wrap ul span{display:block;font-size:13px;color:#999;padding:0 10px}
+				.product-wrap ul span em{font-size:13px;padding:0 20px 0 5px;color:#666}
+	
+/*商品详情*/
+#decont{width:1200px;overflow:hidden;margin:0 auto}
+	#decontleft{width:1010px;overflow:hidden;float:left}
+		#decontop{width:100%;overflow:hidden;}
+			#decontop h1{font-size:14px;color:#666;margin-top:20px;width:100%;overflow:hidden}
+			#preview{ float:left; margin:20px auto; text-align:center; width:400px;}
+				.jqzoom{ width:400px; height:400px;position:relative;padding:0;border:1px solid #eaeaea}
+					.jqzoom img{width:400px;height:400px;}
+			.deconview{width:550px;float:right;overflow:hidden;margin-top:18px}
+				.deconsc{margin:0 0 25px 400px;width:102px;height:30px;border-radius: 5px;background: #f7f7f7;border: 1px solid #dedede;text-align: center;line-height: 30px;font-size:13px;color:#999;cursor:pointer}
+					.deconsc img{float:left;margin:7px 0 0 10px;width:14px;height:14px;}
+				.deconview h2{font-size: 24px;line-height: 30px;color:#222;overflow:hidden;}
+				.deconprice{width:100%;overflow:hidden;padding:15px 0;border-top:1px solid #e5e5e5;border-bottom:1px solid #e5e5e5;font-size:14px;color:#999;margin-top:20px}
+					.deconprice p{float:left;margin-left:10px;color:#666;font-size:16px;}
+						.deconprice p em{font-size:30px;color:#de2e01;margin-left:6px;}
+						.deconprice del{padding-left:10px;color:#999;font-size:14px;}
+					.deconprice span{float:right;margin:6px 0 0;line-height:40px;}
+						.deconprice span i{color:#de2e01;}
+				.deconview strong{color:#999;font-size:14px;overflow:hidden;margin:15px 0 25px;display:block;}
+					.deconview strong i{padding-left:10px;color:#666}
+			.details-cent{width:100%;overflow:hidden;}
+				.details-cent em{display:block;float:left;color:#666;font-size:14px;line-height:30px;}
+					.cartbtn{width:138px;border:1px solid #dcdcdc;height:30px;float:left;margin-left:28px;}
+						.cartbtn span{border-radius:0;background:#fff;width:32px;height:30px;-webkit-tap-highlight-color:rgba(255,255,255,0);display:block;cursor:pointer;float:left;text-align:center;color:#777;}
+							.cartbtn .min{font-size:38px;line-height:24px;border-right:1px solid #dcdcdc}
+							.cartbtn .plus{font-size:30px;line-height:29px;border-left:1px solid #dcdcdc;}
+							.cartbtn input{float:left;width:60px;height:30px;line-height:30px;background:none;text-align:center;border:none;font-size:15px;color:#3E3C3C;padding:0 5px;background:#fff;height:26px;line-height:26px;margin-top:1.5px;}
+					.details-cent center{float:left;margin-left:15px;color:#999;font-size:13px;line-height:30px;}
+						.details-cent center i{color:red;padding:0 3px}
+			.deconbtn{width:100%;overflow:hidden;margin-top:25px}
+				.deconbtn p{overflow:hidden;margin:10px 0 32px;font-size:14px;}
+					.deconbtn p select{width:150px;height:35px;}
+						.deconbtn p option{height:30px;line-height:30px;font-size:14px;}
+					.deconbtn p a{color:#0099FF;padding-left:10px}
+						.deconbtn p a:hover{text-decoration:underline}
+					.deconbtn p input{width:150px;height:35px;font-size:14px;padding:0 10px;line-height:35px;border:1px solid #eaeaea;}
+				.deconbtn a:nth-child(3){border-radius: 5px;border: 1px solid #e50013;width: 180px;height: 40px;text-align:center;font-size:16px;display:block;background:#fce5e7;color:#e50013;margin-left: 70px;color: #e50013;line-height: 40px;}
+					.deconbtn a:nth-child(3):hover{background:#f9d5d8}
+		#deconbtn{width:100%;overflow:hidden;margin-top:30px;}
+			.deconbtn-head{width:100%;background: #f0f0f0;height: 39px;margin-left: 0px;line-height: 39px;overflow: hidden;font-size:14px;border-bottom: 1px solid #0099FF;}
+				.deconbtn-head p{float:left;width:140px;text-align:center;cursor:pointer}
+				.deconbtn-now{background:#0099FF;color:#fff}
+			.deconbna{width:100%;overflow:hidden;margin-top:15px;}
+			.deconbtn-con{border:1px solid #dcdcdc;width:1008px;text-align:center;padding-bottom:15px;}
+				.deconbtn-con p img{width:100%;margin-bottom:15px;}
+				.deconbtn-con span{display:block;overflow:hidden;font-size:13px;line-height:35px;text-align:left;padding:0 15px;}
+	#decontright{float:right;width:167px;overflow:hidden;margin-top:100px;}
+		#decontright h1{line-height: 39px;height: 39px;background-color: #f7f7f7;text-align: center;width: 167px;color:#666;font-size:15px;}
+		#decontright ul{width:100%;overflow:hidden;margin-top:20px}
+			#decontright li{width:100%;overflow:hidden;margin-bottom:25px;}
+				#decontright li a{display:block;width:100%;overflow:hidden;text-align:center;}
+					#decontright li a img{width:99%;border:1px solid #eaeaea}
+					#decontright li a p{color:#666;font-size:13px;margin:15px 0 6px;width:100%;overflow:hidden;white-space:nowrap;text-overflow:ellipsis}
+					#decontright span{display:block;width:100%;color:#de2e01;font-size:13px;}
+						#decontright span i{font-size:16px;}

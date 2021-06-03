@@ -1,0 +1,17 @@
+eclipse.preferences.version=1
+encoding//WebContent/about.jsp=UTF-8
+encoding//WebContent/abouta.jsp=UTF-8
+encoding//WebContent/aboutb.jsp=UTF-8
+encoding//WebContent/aboutc.jsp=UTF-8
+encoding//WebContent/finance.jsp=UTF-8
+encoding//WebContent/out.jsp=UTF-8
+encoding//WebContent/safe.jsp=UTF-8
+encoding//WebContent/trade-market.jsp=UTF-8
+encoding//WebContent/trade.jsp=UTF-8
+encoding//src/jm/AddOptional.java=UTF-8
+encoding//src/jm/BuyStock.java=UTF-8
+encoding//src/jm/LoginAction.java=UTF-8
+encoding//src/jm/StockList.java=UTF-8
+encoding//src/jm/entity=UTF-8
+encoding//src/jm/entity/StockService.java=UTF-8
+encoding//src/jm/entity/UserService.java=UTF-8
